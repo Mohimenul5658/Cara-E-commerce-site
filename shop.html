@@ -361,17 +361,6 @@
         </div>
     </footer>
     
-    <script>
-        const products = document.querySelectorAll(".pro");
-          products.forEach(product => {
-          product.addEventListener("click", function () {       
-          const img = this.querySelector("img").src;       
-          localStorage.setItem("productImage", img);       
-          window.location.href = "sproduct.html";
-         });
-       });
-    </script>
-    
     <script src="script.js"></script>
 </body>
 </html>
